@@ -1,0 +1,35 @@
+# Compiled binaries - Linux
+*.o
+*.out
+a.out
+
+# Compiled binaries - Windows
+*.exe
+
+# Compiled binaries - no extension (Linux default output)
+c/01_basics/*
+!c/01_basics/*.c
+
+c/02_conditionals/*
+!c/02_conditionals/*.c
+
+c/03_loops/*
+!c/03_loops/*.c
+
+c/04_functions/*
+!c/04_functions/*.c
+
+c/05_arrays/*
+!c/05_arrays/*.c
+
+c/06_strings/*
+!c/06_strings/*.c
+
+c/07_pointers/*
+!c/07_pointers/*.c
+
+c/08_structs/*
+!c/08_structs/*.c
+
+c/09_file_io/*
+!c/09_file_io/*.c
