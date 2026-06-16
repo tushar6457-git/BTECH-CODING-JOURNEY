@@ -33,3 +33,6 @@ c/08_structs/*
 
 c/09_file_io/*
 !c/09_file_io/*.c
+
+c/10_pattern_printing/*
+!c/10_pattern_printing/*.c
