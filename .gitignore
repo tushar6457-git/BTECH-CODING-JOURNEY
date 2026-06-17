@@ -39,6 +39,7 @@ c/09_structs/*
 
 c/10_file_io/*
 !c/10_file_io/*.c
+<<<<<<< HEAD
 
 
 cpp/**
@@ -50,3 +51,5 @@ JAVA/**
 !JAVA/**/
 !JAVA/**/*.java
 !JAVA/**/*.class
+=======
+>>>>>>> 9a9ba3df857e016931b6cf56ce4a95c2dbf8b96b
