@@ -1,13 +1,45 @@
-# Compiled binaries
+# Compiled binaries - Linux
 *.o
 *.out
-*.exe
 a.out
 
-# Ignore all files in c/ recursively, whitelist only source files
-c/**
-!c/**/
-!c/**/*.c
+# Compiled binaries - Windows
+*.exe
+
+# Compiled binaries - no extension (Linux default output)
+c/01_basics/*
+!c/01_basics/*.c
+
+c/02_conditionals/*
+!c/02_conditionals/*.c
+
+c/03_loops/*
+!c/03_loops/*.c
+
+c/03_pattern_printing/*
+!c/03_pattern_printing/*.c
+
+c/04_functions/*
+!c/04_functions/*.c
+
+c/05_pointers/*
+!c/05_pointers/*.c
+
+c/06_recursion/*
+!c/06_recursion/*.c
+
+c/07_arrays/*
+!c/07_arrays/*.c
+
+c/08_strings/*
+!c/08_strings/*.c
+
+c/09_structs/*
+!c/09_structs/*.c
+
+c/10_file_io/*
+!c/10_file_io/*.c
+
 
 cpp/**
 !cpp/**/
