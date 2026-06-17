@@ -32,10 +32,22 @@ c/07_arrays/*
 !c/07_arrays/*.c
 
 c/08_strings/*
-!c/08_strings/*.c
+!c/08_strings/*.c  
 
 c/09_structs/*
-!c/09_structs/*.c
+!c/09_structs/*.c  
 
 c/10_file_io/*
 !c/10_file_io/*.c
+
+
+
+cpp/**
+!cpp/**/
+!cpp/**/*.cpp
+!cpp/**/*.h
+
+JAVA/**
+!JAVA/**/
+!JAVA/**/*.java
+!JAVA/**/*.class
