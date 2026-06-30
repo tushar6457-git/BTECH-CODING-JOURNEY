@@ -3,14 +3,17 @@ int main(){
     int n,m;
     printf("Enter max row length: ");
     scanf("%d",&n);
-
+                                //*****
+                                //*   *
+                                //*   *
+                                //*****
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            if(n==1 || n == n){
-                printf("*****");
+            if(j==1 || j==n || i==1 || i==n){
+                printf("*");
             }
             else{
-                printf("*   *");
+                printf(" ");
             }
         }
         printf("\n");

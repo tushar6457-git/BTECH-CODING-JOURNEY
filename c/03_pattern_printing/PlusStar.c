@@ -7,7 +7,8 @@ int main(){
 
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            if(j==n/2+1 || i==n/2+1){ //GoodForOddNumber
+            int a= n/2+1;
+            if(j==a || i==a){ //GoodForOddNumber
                 printf("* ");
             }
             else{
